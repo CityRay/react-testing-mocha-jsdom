@@ -6,8 +6,9 @@
 
 ## Install
 
+```bash
 $ npm install
-
+```
 
 ## Run
 
