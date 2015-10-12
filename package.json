@@ -1,0 +1,22 @@
+{
+  "name": "react-testing-mocha-jsdom",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Unit testing React with Mocha and jsdom",
+  "scripts": {
+    "test": "mocha --recursive --compilers js:babel/register --require ./test/setup.js ./test/component/*",
+    "watch": "npm test -- --watch"
+  },
+  "author": "RayLin",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "chai": "^3.3.0",
+    "jsdom": "^6.5.1",
+    "mocha": "^2.3.3",
+    "react-tools": "^0.13.3"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
+  }
+}
